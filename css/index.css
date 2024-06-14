@@ -8,7 +8,36 @@ body{
   background-position: center center;
   
 }
+.slides {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
 
+.slide {
+  flex: 1;
+  position: relative;
+}
+
+/* 幻燈片內部背景圖片設置 */
+.slide-background {
+  background-image: url(../images/canva1.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 確保連結充滿整個幻燈片區域 */
+.slide-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
 .ad h1{
   text-align: center;
   color: #d38db0;
