@@ -8,6 +8,7 @@ body{
   background-position: center center;
   
 }
+
 .slides {
   list-style: none;
   padding: 0;
@@ -38,6 +39,7 @@ body{
   height: 100%;
   text-decoration: none;
 }
+
 .ad h1{
   text-align: center;
   color: #d38db0;
@@ -106,7 +108,7 @@ li.slide {
 }
 .nav-button {
   position: absolute;
-  top: 50%;
+  top: 150%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
